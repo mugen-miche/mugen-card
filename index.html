@@ -12,7 +12,7 @@
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: #050505;
+      background: #080e1c;
       min-height: 100vh;
       display: flex;
       align-items: center;
@@ -24,15 +24,15 @@
 
     .card {
       width: 100%;
-      max-width: 400px;
-      background: #070707;
-      border-radius: 22px;
+      max-width: 420px;
+      background: #0d1428;
+      border-radius: 20px;
       overflow: hidden;
-      border: 0.5px solid #1a1a1a;
+      border: 0.5px solid #1e2a3a;
     }
 
     .header {
-      padding: 30px 26px 22px;
+      padding: 28px 24px 20px;
       position: relative;
     }
 
@@ -40,9 +40,9 @@
       position: absolute;
       top: 14px;
       right: 18px;
-      font-size: 9px;
-      letter-spacing: 0.35em;
-      color: #1c1c1c;
+      font-size: 10px;
+      letter-spacing: 0.25em;
+      color: #1a2236;
       text-transform: uppercase;
       font-family: 'JetBrains Mono', monospace;
       white-space: nowrap;
@@ -56,51 +56,51 @@
     }
 
     .tag {
-      font-size: 10px;
+      font-size: 11px;
       color: #c9a84c;
-      letter-spacing: 0.25em;
-      margin: 0 0 10px;
+      letter-spacing: 0.2em;
+      margin: 0 0 12px;
       text-transform: uppercase;
       font-family: 'JetBrains Mono', monospace;
     }
 
     h1 {
-      font-size: 56px;
+      font-size: 52px;
       font-weight: 700;
-      color: #f2f2f2;
-      letter-spacing: -3.5px;
-      line-height: 0.88;
+      color: #e6f1ff;
+      letter-spacing: -3px;
+      line-height: 0.9;
       font-family: 'Inter', sans-serif;
     }
 
     .monogram {
-      width: 50px;
-      height: 50px;
+      width: 52px;
+      height: 52px;
       border-radius: 12px;
-      background: #0f0c00;
-      border: 0.5px solid #c9a84c;
+      background: #0f1a2e;
+      border: 1px solid #c9a84c;
       display: flex;
       align-items: center;
       justify-content: center;
       flex-shrink: 0;
-      font-size: 13px;
+      font-size: 14px;
       font-weight: 700;
       color: #c9a84c;
       font-family: 'JetBrains Mono', monospace;
-      letter-spacing: -1px;
     }
 
     .subtitle {
-      font-size: 12px;
-      color: #2e2e2e;
-      margin: 16px 0 0;
+      font-size: 13px;
+      color: #4a5a7a;
+      margin: 14px 0 0;
       font-family: 'JetBrains Mono', monospace;
+      letter-spacing: 0.05em;
     }
 
-    .divider { height: 0.5px; background: #161616; }
+    .divider { height: 0.5px; background: #1e2a3a; }
 
     .body {
-      padding: 18px 26px;
+      padding: 16px 24px;
       display: flex;
       flex-direction: column;
       gap: 10px;
@@ -113,41 +113,41 @@
     }
 
     .cell {
-      background: #0d0d0d;
+      background: #111e33;
       border-radius: 12px;
       padding: 14px;
-      border: 0.5px solid #191919;
+      border: 0.5px solid #1e2a3a;
     }
 
     .cell-label {
-      font-size: 9px;
-      letter-spacing: 0.2em;
-      color: #444;
+      font-size: 10px;
+      letter-spacing: 0.18em;
+      color: #3d4f6b;
       margin: 0 0 8px;
       text-transform: uppercase;
       font-family: 'JetBrains Mono', monospace;
     }
 
     .cell-main {
-      font-size: 14px;
-      color: #e0c068;
+      font-size: 16px;
+      color: #c9a84c;
       margin: 0;
       font-weight: 600;
       font-family: 'Inter', sans-serif;
     }
 
     .cell-sub {
-      font-size: 10px;
-      color: #555;
-      margin: 4px 0 0;
+      font-size: 11px;
+      color: #3d4f6b;
+      margin: 5px 0 0;
       font-family: 'JetBrains Mono', monospace;
     }
 
     .projects {
-      background: #0d0d0d;
+      background: #111e33;
       border-radius: 12px;
       padding: 14px 16px;
-      border: 0.5px solid #191919;
+      border: 0.5px solid #1e2a3a;
     }
 
     .tags {
@@ -158,16 +158,16 @@
     }
 
     .badge {
-      font-size: 11px;
+      font-size: 12px;
       color: #c9a84c;
       border: 0.5px solid #3a2e10;
-      background: #110e00;
-      border-radius: 5px;
-      padding: 4px 10px;
+      background: #1a1500;
+      border-radius: 6px;
+      padding: 5px 11px;
       font-family: 'JetBrains Mono', monospace;
     }
 
-    .cta-wrap { padding: 0 26px 16px; }
+    .cta-wrap { padding: 0 24px 16px; display: flex; flex-direction: column; gap: 8px; }
 
     .cta {
       display: flex;
@@ -178,12 +178,11 @@
       border-radius: 12px;
       padding: 15px;
       text-decoration: none;
-      color: #070707;
+      color: #0a0f1e;
       font-weight: 700;
-      font-size: 14px;
+      font-size: 15px;
       font-family: 'Inter', sans-serif;
       transition: opacity 0.15s;
-      margin-bottom: 8px;
     }
 
     .cta:hover { opacity: 0.88; }
@@ -194,11 +193,11 @@
       justify-content: center;
       gap: 6px;
       background: transparent;
-      border: 0.5px solid #2a2a2a;
+      border: 0.5px solid #1e2a3a;
       border-radius: 12px;
-      padding: 12px;
+      padding: 13px;
       text-decoration: none;
-      color: #555;
+      color: #3d4f6b;
       font-size: 12px;
       font-family: 'JetBrains Mono', monospace;
       transition: all 0.15s;
@@ -211,10 +210,10 @@
 
     .footer {
       text-align: center;
-      font-size: 9px;
-      color: #1a1a1a;
-      margin: 12px 0 16px;
-      letter-spacing: 0.12em;
+      font-size: 10px;
+      color: #1e2a3a;
+      margin: 4px 0 16px;
+      letter-spacing: 0.15em;
       font-family: 'JetBrains Mono', monospace;
     }
   </style>
@@ -274,7 +273,7 @@
         <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
           <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6M15 3h6v6M10 14L21 3"/>
         </svg>
-        mugen-khaki.vercel.app
+        Voir mon portfolio →
       </a>
     </div>
 
